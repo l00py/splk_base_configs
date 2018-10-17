@@ -14,7 +14,7 @@ cp -r $CONFIG_SPLK_PATH/hawkEye_auth_role_admin $APPS/
 cp -r $CONFIG_SPLK_PATH/TA-hawkEye_splunk $APPS/
 
 # IXC Base apps to push
-cp -r $CONFIG_SPLK_PATH/hawkEye_cluster_idx_base $MASTER_APPS/
+#cp -r $CONFIG_SPLK_PATH/hawkEye_cluster_idx_base $MASTER_APPS/
 cp -r $CONFIG_SPLK_PATH/hawkEye_all_indexes $MASTER_APPS/
 cp -r $CONFIG_SPLK_PATH/hawkEye_all_license $MASTER_APPS/
 cp -r $CONFIG_SPLK_PATH/hawkEye_auth_ldap $MASTER_APPS/
