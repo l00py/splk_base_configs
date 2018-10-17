@@ -5,3 +5,4 @@ SPLUNK_HOME=/opt/splunk
 APPS=$SPLUNK_HOME/etc/apps
 
 cp -r $CONFIG_SPLK_PATH/hawkEye_shc_base $APPS/
+cp -r $CONFIG_SPLK_PATH/hawkEye_cluster_sh_base $APPS/
